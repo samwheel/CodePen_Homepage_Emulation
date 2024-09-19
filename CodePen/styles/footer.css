@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > .footer-item {
+    height: 50px;
+    width: 25%;
+    background-color: rgb(67, 67, 67);
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > .footer-item .for_item {
+    font-size: 1.5em;
+    font-weight: bold;
+}

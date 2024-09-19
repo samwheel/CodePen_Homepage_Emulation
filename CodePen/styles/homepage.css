@@ -1,0 +1,62 @@
+body {
+    color: white;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(21, 21, 21);
+}
+
+/* content */
+
+.content {
+    background-color: rgb(73, 75, 85);
+    display: flex;
+    justify-content: space-around;
+}
+
+/* left_column */
+.content > .left_column {
+    width: 500px;
+}
+
+.content > .left_column p {
+    color: rgb(180, 180, 180);
+}
+
+.content > .left_column > .first_p {
+    font-size: 2em;
+}
+
+.content > .left_column > .second_p {
+    font-size: 1.5em;
+}
+
+.content > .left_column .environment {
+    color: white;
+}
+
+.content > .left_column .sign_up_free button {
+    background-color: rgb(28, 208, 91);
+    color: black;
+    font-size: 2em;
+}
+
+.content > .left_column .learn_more button {
+    background-color: black;
+    font-size: 2em;
+}
+
+.content > .left_column .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* right_column */
+.content > .right_column a {
+    text-decoration: none;
+}
+
+.content > .right_column > .project > img {
+    width: 650px;
+    height: 100%;
+}

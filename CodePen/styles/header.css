@@ -1,0 +1,52 @@
+header {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left Column */
+header > .left_column > .logo > img {
+    width: 150px;
+    height: 100%;
+}
+
+/* Center Column */
+header > .center_column > .explore {
+    color: gold;
+}
+
+header > .center_column > .menu > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+header > .center_column > .menu > nav > .nav_item > a {
+    color: white;
+    text-decoration: none;
+}
+
+header > .center_column > .menu > nav > .drop_down_menu {
+    color: rgb(180, 180, 180);
+}
+
+/* Right Column */
+header > .right_column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+header > .right_column .create_chevron {
+    color: rgb(120, 255, 47);
+    font-size: 1.25em;
+}
+
+header > .right_column > .search {
+    color: rgb(180, 180, 180);
+    font-size: 1.75em;
+}
